@@ -8,13 +8,16 @@
 }
 
 body {
+  margin: 0;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   background: black;
 }
 
 input {
+  padding-top: 5px;
+  margin-top: 10px;
   background: grey;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 form {

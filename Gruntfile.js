@@ -24,7 +24,7 @@ module.exports = function(grunt) {
         },
         clean: {
             shortPathTest: ['js/production.js','js/production.min.js','img/pizzeria.jpg', 'img/mobilewebdev.jpg', 'img/jaime70x70.jpg',
-                'css/output.min.css', 'img/mobilewebdev.jpg', 'img/beach.jpg', 'img/2048.png'
+                'css/output.min.css', 'views/css/output.min.css', 'img/mobilewebdev.jpg', 'img/beach.jpg', 'img/2048.png'
             ],
         },
         responsive_images: {
@@ -87,7 +87,7 @@ module.exports = function(grunt) {
             },
             target2: {
                 files: [{
-                    'views/css/output.min.css': ['css/style.css', 'css/bootstrap-grid.css']
+                    'views/css/output.min.css': ['css/bootstrap-grid.css','views/css/style.css']
                 }]
             }
         },
